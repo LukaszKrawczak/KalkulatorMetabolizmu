@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Kalkulator Metabolizmu</string>
+
+    <string name="tef_txt">Thermic Effect of Food (TEF) - jest to energia potrzebna organizmowi do przeprocesowania jedzenia w składniki odżywcze. Ogólnie przyjmuje się aby pomnożyć 10% wartość kalorii BMR.</string>
+    <string name="tef_txt0">Jako przykłady powszechnie przyjmuje się, że: </string>
+    <string name="tef_txt1">• Proteiny potrzebują 20-35% kalorii do rozbicia w aminokwasy</string>
+    <string name="tef_txt2">• Węglowodany wymagają 5-15% kalorii</string>
+    <string name="tef_txt3">• Tłuszcz chce 0-5% kalorii</string>
+
+    <string name="tef_txt4">Jeżeli zjesz sumę 200 kalorii protein, Twoje ciało zużyje między 40-70 kalorii z tego białka do celów trawiennych.</string>
+    <string name="tea_txt">Thermic Effect of Activity (TEA), czyli obciążenie pracą wykonywaną ciągiem. Jest to energia jaką potrzebujesz do zapotrzebowania regularnych obowiązków tj. praca.</string>
+    <string name="tef_txt6">Na podstawie BMR oszacowałem Twoje TEF:</string>
+
+    <string name="neat_option1">Nie wykonuje żadnej dodatkowej aktywności fizycznej podczas dnia</string>
+    <string name="neat_option2">Wykonuje lekkie treningi lub lekkie prace fizyczne podczas dnia.</string>
+    <string name="neat_option3">Jestem osobą średniozaawansowaną lub zaawansowaną na siłowni.</string>
+
+    <string name="neat_title">Analiza NEAT</string>
+
+    <string name="neat">Non-Exercise Activity Thermogenesis to energia przeznaczona na wszystko, co robimy, kiedy nie śpimy, jemy lub ćwiczymy.</string>
+    <string name="neat_txt">Jako powszechne przykłady można przyjąć:</string>
+    <string name="neat_txt0">• 12 kCAL – 10 minut leżenia</string>
+    <string name="neat_txt1">• 16 kCAL – 10 minut grania w gry wideo</string>
+    <string name="neat_txt2">• 16 kCAL – 10 minut stania</string>
+    <string name="neat_txt3">• 28 kCAL – 10 minut sprzątania</string>
+    <string name="neat_txt4">• 41 kCAL – 10 minut grania w gry z użyciem kontrolera ruchu</string>
+    <string name="neat_txt5">• 44 kCAL – 10 minut chodzenia ( 6km/h )</string>
+</resources>

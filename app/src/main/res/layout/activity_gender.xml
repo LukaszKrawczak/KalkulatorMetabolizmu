@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.brus5.lukaszkrawczak.KalkulatorMetabolizmu.MainActivity"
+    tools:targetApi="22"
+    android:background="@drawable/wallpaper">
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Witaj w kalkulatorze metabolizmu!"
+
+        />
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obliczę Twoje zapotrzebowanie kaloryczne używając specjalnych wzorów którymi posługują się dietetycy." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textStyle="bold"
+        android:text="Uwzględnię następujące współczynniki:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Podstawową Przemianę Materii (BMR)" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Efekt termiczny pożywienia (TEF)" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Efekt termiczny aktywności fizycznej (TEA)" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Spalanie kalorii podczas codziennych czynności (NEAT)" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Podaj swoją płeć" />
+
+    <RadioGroup
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/kobietaRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kobieta" />
+
+        <RadioButton
+            android:id="@+id/mezczyznaRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mężczyzna" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/bmrButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Następny krok"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/bodyfatkobietaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/bodyfatmezczyznaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

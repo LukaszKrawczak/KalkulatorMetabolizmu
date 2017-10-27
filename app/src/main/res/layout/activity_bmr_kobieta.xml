@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/womenbackground"
+    tools:context="com.brus5.lukaszkrawczak.KalkulatorMetabolizmu.bmrKobieta">
+
+    <TextView
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:text="Obliczam BMR dla kobiet"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="BMR. – Podstawowe zapotrzebowanie kaloryczne. Jest to ilość kalorii jaką organizm musi otrzymywać do podtrzymywania podstawowych funkcji życiowych."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Waga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:id="@+id/weightEditText"
+        android:digits="0123456789"
+        android:inputType="numberDecimal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="kg" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Wzrost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:id="@+id/heightEditText"
+        android:digits="0123456789"
+        android:inputType="numberDecimal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="cm" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Wiek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:id="@+id/ageEditText"
+        android:digits="0123456789"
+        android:inputType="numberDecimal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/bmrButton"
+        android:text="Licz BMR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/bmrTextView"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:text="Twój BMR"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/nextPageButton"
+        android:text="Następny Krok"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/bodyFatTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

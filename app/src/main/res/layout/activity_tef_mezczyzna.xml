@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menbackground"
+    tools:context="com.brus5.lukaszkrawczak.KalkulatorMetabolizmu.tefMezczyzna">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obliczam TEA"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tea_txt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Jaki rodzaj wysiłku wykonujesz na co dzień?"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/midRadioButton"
+            android:text="Niewielki oraz średni wysiłek - praca siedząca, mało ruchu. Przykłady: praca przy komputerze, praca biurowa."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/highRadioButton"
+            android:text="Duży wysiłek - praca absorbująca głównie układ mięśniowy oraz centralny układ nerwowy, posiadająca dużą aktywność fizyczną. Przykłady: praca na budowie, górnictwo."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/neatButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LICZ TEA" />
+
+    <TextView
+        android:id="@+id/loadTeaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/loadTefTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/BMRTEATEFTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:text="BMR"
+        android:id="@+id/bmrTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Obliczam TEF"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tef_txt"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tefInfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tef_txt6"
+        android:textAlignment="center"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tefTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/nextPageButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:elevation="0dp"
+        android:text="następny krok" />
+
+    <ImageView
+        android:layout_gravity="right"
+
+        android:id="@+id/imageViewInfo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:src="@drawable/infoicon" />
+
+    <TextView
+
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tef_txt0"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tef_txt1"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tef_txt2"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tef_txt3"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tef_txt4"
+        android:visibility="gone" />
+
+
+</LinearLayout>
